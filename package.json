@@ -1,0 +1,24 @@
+{
+  "name": "practical-2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Khushi2065/Prac-4_EADC#readme",
+  "bugs": {
+    "url": "https://github.com/Khushi2065/Prac-4_EADC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khushi2065/Prac-4_EADC.git"
+  },
+  "license": "ISC",
+  "author": "Khushi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,11 +1,11 @@
-import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
-const port = process.env.PORT || 3000;
-const app = express();
+const express = require('express'); 
+const path = require('path'); 
+const port= process.env.port || 3000 
+const app = express()
 
 // Fix __dirname in ES Modules
-const __filename = fileURLToPath(import.meta.url);
+app.use(express.static(path.join(__dirname+'/public')))
+// const __filename = fileURLToPath(import.meta.url);
 const _dirname = path.dirname(__filename);
 
 // Serve static files from current folder
