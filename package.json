@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Khushi2065/Prac-4_EADC.git"
   },
   "license": "ISC",
-  "author": "Khushi",
+  "author": "",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
